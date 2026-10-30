@@ -1,0 +1,90 @@
+{
+ "clean": {
+  "slots": 6843,
+  "impaired_frac": 0.0,
+  "detection_rate": null,
+  "type_accuracy": null,
+  "false_channel_alarms": 0.0,
+  "classified_share": 1.0,
+  "electrical_acc_on_accepted": 0.9460762823323103,
+  "confirmed_acc_on_accepted": 0.9548443665059184,
+  "electrical_labels_on_impaired_slots": 0
+ },
+ "loss10": {
+  "slots": 6843,
+  "impaired_frac": 0.09834867748063715,
+  "detection_rate": 1.0,
+  "type_accuracy": 0.9524517087667161,
+  "false_channel_alarms": 0.0,
+  "classified_share": 0.9016513225193629,
+  "electrical_acc_on_accepted": 0.9452188006482982,
+  "confirmed_acc_on_accepted": 0.9546191247974068,
+  "electrical_labels_on_impaired_slots": 0
+ },
+ "loss30": {
+  "slots": 6843,
+  "impaired_frac": 0.29489989770568464,
+  "detection_rate": 1.0,
+  "type_accuracy": 0.9435084241823588,
+  "false_channel_alarms": 0.0,
+  "classified_share": 0.7051001022943154,
+  "electrical_acc_on_accepted": 0.9363730569948187,
+  "confirmed_acc_on_accepted": 0.9550259067357513,
+  "electrical_labels_on_impaired_slots": 0
+ },
+ "noise20": {
+  "slots": 6843,
+  "impaired_frac": 0.20721905596960397,
+  "detection_rate": 1.0,
+  "type_accuracy": 1.0,
+  "false_channel_alarms": 0.0,
+  "classified_share": 0.792780944030396,
+  "electrical_acc_on_accepted": 0.9395391705069125,
+  "confirmed_acc_on_accepted": 0.9557603686635945,
+  "electrical_labels_on_impaired_slots": 0
+ },
+ "down2": {
+  "slots": 6843,
+  "impaired_frac": 0.4999269326318866,
+  "detection_rate": 1.0,
+  "type_accuracy": 0.9991230634317451,
+  "false_channel_alarms": 0.0,
+  "classified_share": 0.5000730673681134,
+  "electrical_acc_on_accepted": 0.9251899473991818,
+  "confirmed_acc_on_accepted": 0.9529514903565166,
+  "electrical_labels_on_impaired_slots": 0
+ },
+ "down5": {
+  "slots": 6843,
+  "impaired_frac": 0.7999415461055093,
+  "detection_rate": 1.0,
+  "type_accuracy": 0.9978078187796858,
+  "false_channel_alarms": 0.0,
+  "classified_share": 0.20005845389449073,
+  "electrical_acc_on_accepted": 0.8933528122717312,
+  "confirmed_acc_on_accepted": 0.9313367421475529,
+  "electrical_labels_on_impaired_slots": 0
+ },
+ "outage20": {
+  "slots": 6843,
+  "impaired_frac": 0.09937162063422475,
+  "detection_rate": 1.0,
+  "type_accuracy": 0.8,
+  "false_channel_alarms": 0.0,
+  "classified_share": 0.9006283793657752,
+  "electrical_acc_on_accepted": 0.9484017523933149,
+  "confirmed_acc_on_accepted": 0.9558656498458543,
+  "electrical_labels_on_impaired_slots": 0
+ },
+ "mixed": {
+  "slots": 6843,
+  "impaired_frac": 0.14803448779774953,
+  "detection_rate": 1.0,
+  "type_accuracy": 0.9693978282329714,
+  "false_channel_alarms": 0.0,
+  "classified_share": 0.8519655122022505,
+  "electrical_acc_on_accepted": 0.9499142367066895,
+  "confirmed_acc_on_accepted": 0.9634648370497427,
+  "electrical_labels_on_impaired_slots": 0
+ }
+}

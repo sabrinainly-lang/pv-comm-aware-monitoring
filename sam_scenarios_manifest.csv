@@ -1,0 +1,22 @@
+file,label,severity,weather,role,description
+sam_runs/w1_normal_default.csv,0,default,w1,weeks,"Existing normal run (5% soiling, 2% DC wiring); weeks split inside the file"
+sam_runs/w1_soiling_10.csv,1,10,w1,test,Soiling loss 10% (all else default)
+sam_runs/w1_soiling_15.csv,1,15,w1,train,Soiling loss 15% (all else default)
+sam_runs/w1_soiling_20.csv,1,20,w1,test,Soiling loss 20% (all else default)
+sam_runs/w1_soiling_25.csv,1,25,w1,train,Soiling loss 25% (all else default) - EXISTING run
+sam_runs/w1_soiling_30.csv,1,30,w1,test,Soiling loss 30% (all else default)
+sam_runs/w1_dcwiring_4.csv,2,4,w1,test,DC wiring loss 4% (all else default)
+sam_runs/w1_dcwiring_6.csv,2,6,w1,train,DC wiring loss 6% (all else default)
+sam_runs/w1_dcwiring_8.csv,2,8,w1,test,DC wiring loss 8% (all else default)
+sam_runs/w1_dcwiring_10.csv,2,10,w1,train,DC wiring loss 10% (all else default) - EXISTING run
+sam_runs/w1_dcwiring_12.csv,2,12,w1,test,DC wiring loss 12% (all else default)
+sam_runs/w1_inv_derate_90.csv,3,derate90,w1,test,"Same inverter (Fronius Primo GEN24 10.0 208-240 {240V}), maximum AC power set to 90% of rated"
+sam_runs/w1_inv_derate_80.csv,3,derate80,w1,train,"Same inverter (Fronius Primo GEN24 10.0 208-240 {240V}), maximum AC power set to 80% of rated"
+sam_runs/w1_inv_derate_70.csv,3,derate70,w1,test,"Same inverter (Fronius Primo GEN24 10.0 208-240 {240V}), maximum AC power set to 70% of rated"
+sam_runs/w1_inv_derate_60.csv,3,derate60,w1,train,"Same inverter (Fronius Primo GEN24 10.0 208-240 {240V}), maximum AC power set to 60% of rated"
+sam_runs/w2_normal_default.csv,0,default,w2,test,"INDEPENDENT weather (different year or site), test only"
+sam_runs/w2_soiling_15.csv,1,15,w2,test,"INDEPENDENT weather (different year or site), test only"
+sam_runs/w2_soiling_25.csv,1,25,w2,test,"INDEPENDENT weather (different year or site), test only"
+sam_runs/w2_dcwiring_6.csv,2,6,w2,test,"INDEPENDENT weather (different year or site), test only"
+sam_runs/w2_dcwiring_10.csv,2,10,w2,test,"INDEPENDENT weather (different year or site), test only"
+sam_runs/w2_inv_derate_80.csv,3,derate80,w2,test,"INDEPENDENT weather (different year or site), test only"
